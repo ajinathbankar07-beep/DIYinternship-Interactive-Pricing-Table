@@ -1,0 +1,1 @@
+console.log("Week 2 Pricing Table Loaded");
