@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Price Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Dynamic Price Calculator</h1>
+
+        <!-- Plan Selection -->
+        <label>Select Plan:</label>
+        <select id="planSelect">
+            <option value="10">Basic - $10</option>
+            <option value="20">Standard - $20</option>
+            <option value="30">Premium - $30</option>
+        </select>
+
+        <h3>Extras</h3>
+
+        <!-- Extra Options -->
+        <label>
+            <input type="checkbox" class="extra" value="5">
+            Extra Storage (+$5)
+        </label>
+
+        <label>
+            <input type="checkbox" class="extra" value="10">
+            Priority Support (+$10)
+        </label>
+
+        <label>
+            <input type="checkbox" class="extra" value="15">
+            Custom Domain (+$15)
+        </label>
+
+        <h2>Total Price: $<span id="total">10</span></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
